@@ -17,7 +17,16 @@
         document.write(`Olá, <strong>${nome}!</strong> Seu nome tem ${nome.length} letras.<br/>`)
         document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}<br/>`)
         document.write(`Seu nome em minúsculas é ${nome.toLocaleLowerCase()}`)
-        // nome.toFixed(2)
+        
+        /* Formatando números
+         num.toFixed(2) número com 2 casas depois do ponto
+         num.toFixed(2).replace('.', ',') paraa trocar ponto por vírgula
+
+         num.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) Ex: R$ 1.000,00
+         num.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) Ex: US$ 1.000,00
+         num.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) Ex: € 1.000,00
+        */
+
     </script>
 </body>
 </html>
